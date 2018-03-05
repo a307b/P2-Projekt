@@ -1,7 +1,7 @@
 
 # P2 Projekt <img src="https://s3.eu-west-2.amazonaws.com/sembrik/SW2/Project/omegalul.png" width="200" height="200"></img>
 
-[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/a307b/P2-Projekt.svg)](https://isitmaintained.com/project/a307b/P2-Projekt "Average time to resolve an issue") [![Percentage of issues still open](http://isitmaintained.com/badge/open/a307b/P2-Projekt.svg)](https://isitmaintained.com/project/a307b/P2-Projekt "Percentage of issues still open")[![Coverage Status](https://coveralls.io/repos/github/a307b/P2-Projekt/badge.svg?branch=master)](https://coveralls.io/github/a307b/P2-Projekt?branch=master)
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/a307b/P2-Projekt.svg)](https://isitmaintained.com/project/a307b/P2-Projekt "Average time to resolve an issue") [![Percentage of issues still open](http://isitmaintained.com/badge/open/a307b/P2-Projekt.svg)](https://isitmaintained.com/project/a307b/P2-Projekt "Percentage of issues still open")[![codecov](https://codecov.io/gh/a307b/P2-Projekt/branch/master/graph/badge.svg)](https://codecov.io/gh/a307b/P2-Projekt)
 
 ## Build Status
 

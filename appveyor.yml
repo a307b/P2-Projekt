@@ -2,17 +2,26 @@ version: '{build}'
 os: Windows Server 2012
 environment:
     matrix:
-        - JAVA_HOME: C:\Program Files\Java\jdk1.7.0
         - JAVA_HOME: C:\Program Files\Java\jdk1.8.0
+
+matrix:
+        fast_finish: true
+build:
+    verbosity: detailed
+  
 install:
   - ps: choco install maven
   - ps: $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
   - mvn --version
+  
 build_script:
   - mvn --batch-mode clean package -DskipTests
+  - gradlew.bat assemble --info --no-daemon -PbintrayUserName -PbintrayApiKey
+  
 test_script:
   - mvn --batch-mode clean package
-artifacts:
-  - path: target/rust-libs/*
+  
 cache:
   - C:\Users\appveyor\.m2
+  - C:\Users\appveyor\.gradle
+  

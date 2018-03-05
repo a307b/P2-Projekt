@@ -1,19 +1,19 @@
-coverage:
-  precision: 2
-  round: down
-  range: "70...100"
+codecov:
+  ui:
+    # hide cyclomatic complexity in the UI and pull request comments
+    hide_complexity: true
 
+coverage:
   status:
     project:
-      default: on
+      default: false
     patch:
-      default: on
-    changes:
-      default: off
+      default: false
 
-comment:
-  layout: "header, reach, diff, flags, files, footer"
-  behavior: default
-  require_changes: no
-  require_base: no
-  require_head: yes
+flags:
+  production:
+    paths:
+      - src/
+  test:
+    paths:
+      - test/

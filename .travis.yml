@@ -6,8 +6,6 @@ os:
 
 jdk:
   - oraclejdk8
-  
-install: yarn --ignore-optional --pure-lockfile --production
 
 notifications:
   email: false

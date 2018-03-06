@@ -9,6 +9,24 @@ jdk:
 
 notifications:
   email: false
+  
+  include:
+      - os: osx
+        env: TEST_SUITE=ios
+        osx_image: xcode8.3
+        language: objective-c
+        before_install:
+          - brew update
+          - brew outdated carthage || brew upgrade carthage > /dev/null 2>&1
+          - brew install ios-webkit-debug-proxy > /dev/null 2>&1
+          - brew install nvm > /dev/null 2>&1
+        before_script:
+          - source $(brew --prefix nvm)/nvm.sh
+          - nvm install 7
+          - npm i ios-simulator -g
+          - open -a Simulator --args -CurrentDeviceUDID `ios-simulator -n 'iPhone 6s'` > /dev/null 2>&1
+        script:
+          - make travis-ios
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)

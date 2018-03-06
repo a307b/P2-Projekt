@@ -7,8 +7,8 @@
 
 Operating Systems | Build Status | Artifacts
 :------------: | :------------: | :------------:
-Windows | ![Build status](https://ci.appveyor.com/api/projects/status/rxggy0e14cr85870?svg=true) | B
+Windows | [![Build status](https://ci.appveyor.com/api/projects/status/rxggy0e14cr85870?svg=true)](https://ci.appveyor.com/project/sentoa/p2-projekt/branch/master) | B
 OSX | [![master Build Status](https://travis-ci.org/a307b/P2-Projekt.svg?branch=master)](https://travis-ci.org/a307b/P2-Projekt) | B
-Linux | ![master Build Status](https://travis-ci.org/a307b/P2-Projekt.svg?branch=master) | B
+Linux | [![master Build Status](https://travis-ci.org/a307b/P2-Projekt.svg?branch=master)](https://travis-ci.org/a307b/P2-Projekt) | B
 
 

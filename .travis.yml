@@ -4,6 +4,13 @@ os:
   - linux
   - osx
 
+before_install:
+  - brew update && brew bundle
+  
+cache:
+  yarn: true
+  directories:
+    - node_modules
 jdk:
   - oraclejdk8
 

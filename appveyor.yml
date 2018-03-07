@@ -1,5 +1,4 @@
 version: "{build}"
 image: Visual Studio 2017
 build_script:
-- cmd:
-    mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+-  mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V

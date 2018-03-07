@@ -3,6 +3,8 @@ language: java
 os:
   - linux
   - osx
+  
+script: "mvn cobertura:cobertura"
 
 notifications:
   email: false

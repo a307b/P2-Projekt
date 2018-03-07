@@ -5,7 +5,7 @@ os:
   - osx
 
 jdk:
-  - oraclejdk8
+  - oraclejdk9
 
 notifications:
   email: false

@@ -2,12 +2,7 @@ language: java
 
 os:
   - linux
-  - osx
-  
-cache:
-  yarn: true
-  directories:
-    - node_modules
+
 jdk:
   - oraclejdk8
 

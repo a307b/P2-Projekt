@@ -1,10 +1,10 @@
 language: java
 
+sudo: false
+
 os:
   - linux
   - osx
-
-sudo: false
 
 notifications:
   email: false

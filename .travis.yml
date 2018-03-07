@@ -4,9 +4,6 @@ os:
   - linux
   - osx
 
-jdk:
-  - oraclejdk9
-
 notifications:
   email: false
   

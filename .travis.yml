@@ -7,7 +7,9 @@ os:
   - osx
 
 notifications:
-  email: false
+  email: 
+   recipients:
+      - sw2a307b@gmail.com
   webhooks: https://discordapp.com/api/webhooks/421123184214016028/EdNfakhRzwJObGJOAXKRA5AdiXSW3HaplQcHh7DyD3P_e4ymUc2PP5gS2OfD2REoqk2t
   
 after_success:

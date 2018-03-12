@@ -7,9 +7,9 @@
 
 Operating Systems | Build Status | Artifacts
 :------------: | :------------: | :------------:
-Windows | [![Build Status][1]][2] | B
-Linux | [![Build Status][4]][5] | B
-OSX | [![Build Status][7]][8] | B
+Windows | [![Build Status][1]][2] | Download
+Linux | [![Build Status][4]][5] | Download
+OSX | [![Build Status][7]][8] | Download
 
 
 [1]: https://ci.appveyor.com/api/projects/status/rxggy0e14cr85870?svg=true

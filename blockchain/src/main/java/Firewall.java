@@ -8,7 +8,7 @@ public class Firewall {
     private transient String plainIP;
 
     // ip is moved to the default constrcutor, as I have no fucking idea what format Inetaddress is running.
-    public Firewall(String hostName, String plainIP) {
+    protected Firewall(String hostName, String plainIP) {
         this.hostName = hostName;
         this.plainIP = plainIP;
     }
@@ -24,7 +24,7 @@ public class Firewall {
         return plainIP;
     }
 
-    public void getHostname() {
+    protected void getHostname() {
         hostName = ip.getHostName();
         System.out.println("Your current Hostname : " + hostName);
     }

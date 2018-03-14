@@ -12,6 +12,6 @@ public class Main
 
         System.out.println("Adding you to the whitelisted network... - Your ID is : " + firewall.getPlainIP());
         firewall.getHostname();
-        data.connect();
+        // data.connect();
     }
 }

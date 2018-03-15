@@ -3,9 +3,7 @@ public class OSCheck {
     private static String OS = null;
     private static String getOS()
     {
-        if(OS == null)
-            OS = System.getProperty("os.name");
-
+        if(OS == null) { OS = System.getProperty("os.name"); }
         return OS;
     }
     private static boolean isWindows()
@@ -25,13 +23,19 @@ public class OSCheck {
 
     protected static void updateIPFS()
     {
-        if (isWindows())
+        if (isWindows()){
             System.out.println("Detected Windows OS - Installing IPFS for Windows");
-        else if (isLinux())
-            System.out.println("Detected Linux OS - Installing IPFS for Linux");
-        else if (isOSX())
-            System.out.println("Detected OSX OS - Installing IPFS for OSX");
+        }
 
+        else if (isLinux())
+        {
+            System.out.println("Detected Linux OS - Installing IPFS for Linux");
+        }
+
+        else if (isOSX())
+        {
+            System.out.println("Detected OSX OS - Installing IPFS for OSX");
+        }
         System.out.println("OS Version : " + getOS());
     }
 

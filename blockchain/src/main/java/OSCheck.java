@@ -23,7 +23,7 @@ public class OSCheck {
         return getOS().startsWith("OSX");
     }
 
-    protected void updateIPFS()
+    protected static void updateIPFS()
     {
         if (isWindows())
             System.out.println("Detected Windows OS - Installing IPFS for Windows");
